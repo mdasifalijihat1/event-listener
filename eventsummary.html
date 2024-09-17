@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+     <h1> hello digital world </h1>
+     <h3 id="heder-change"> hello morjina buuuu </h3>
+   
+      <br>
+      <br>
+     <button onclick="henderText()"> click and changel </button>
+
+      <button id="event-listener"> handle event by addEventListener </button>
+
+     <script>
+        // option - 01
+        function henderText(){
+            const henderText = document.getElementById('heder-change');
+            henderText.innerText = ' hello morjina tumi out '
+        }
+
+        // option -02
+        document.getElementById('event-listener').addEventListener('click', function(){
+            const henderText = document.getElementById('heder-change');
+            henderText.innerText = 'change the mui '
+        })
+
+
+        //  oprion 2: repet 
+     
+     </script>
+
+
+</body>
+</html>
